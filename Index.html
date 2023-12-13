@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Search Box</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown button
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Calculator</a></li>
+                              <li><a class="dropdown-item" href="#">Stop-Watch</a></li>
+                              <li><a class="dropdown-item" href="#">Digital Clock</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <!-- Navbar text with an inline element -->
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="cardproduct">
+        <section class="container">
+            <form>
+                <i class="fas fa-search"></i>
+                <input type="text" name="text" name="" id="search-item" placeholder="Search Products"
+                    onkeyup="search()">
+            </form>
+            <div class="product-list" id="product-list">
+                <div class="product">
+                    <img src="Images/img1.png" alt="">
+                    <div class="p-details">
+                        <h2>Tshirt for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img2.png" alt="">
+                    <div class="p-details">
+                        <h2>Bag for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img3.png" alt="">
+                    <div class="p-details">
+                        <h2>Sneaker for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img1.png" alt="">
+                    <div class="p-details">
+                        <h2>Tshirt for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img2.png" alt="">
+                    <div class="p-details">
+                        <h2>Bag for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img3.png" alt="">
+                    <div class="p-details">
+                        <h2>Sneaker for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img2.png" alt="">
+                    <div class="p-details">
+                        <h2>Bag for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img1.png" alt="">
+                    <div class="p-details">
+                        <h2>Tshirt for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img2.png" alt="">
+                    <div class="p-details">
+                        <h2>Bag for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="Images/img3.png" alt="">
+                    <div class="p-details">
+                        <h2>Sneaker for Everyone</h2>
+                        <h3>25$</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
